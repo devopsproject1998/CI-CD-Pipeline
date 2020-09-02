@@ -22,7 +22,7 @@ pipeline {
       stage('deploy-docker'){
          steps{
               sh 'docker build -t "devops_cicd:$BUILD_NUMBER" .'   
-              sh 'docker run -itd --name "cicd-$BUILD_NUMBER" -P devops_cicd:$BUILD_NUMBER'
+              sh 'docker run -itd --name "cicd-$BUILD_NUMBER" devops_cicd:$BUILD_NUMBER'
           }
       }
    }
