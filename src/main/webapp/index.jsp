@@ -8,7 +8,7 @@ h1 {text-align:center}
 </style>
 <h1> Welcome!!!! </h1></br>
 <div class=first>
-<h2>This Project is Deployed Using</h2><br>
+<h2>This Project is Deployed  Using</h2><br>
 <h2> </h2>
 </div>
 <div class=second>
